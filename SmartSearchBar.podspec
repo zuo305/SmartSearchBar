@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source_files = "SmartSearchBar/SourceClass/**/*.{h,m}"
+  s.source_files = "SmartSearchBar/SourceClass/**/*.{swift}"
   s.resources = [
     "SmartSearchBar/Resource/**/*.{png}"
   ]
   
   s.frameworks = 'Foundation', 'UIKit'
-  s.dependency 'GoogleMaps'
+  s.dependency 'GoogleMaps', '~> 1.12.3'
 end
