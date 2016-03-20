@@ -15,10 +15,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source_files = "GLCalendarView/Sources/**/*.{h,m}"
+  s.source_files = "SmartSearchBar/SourceClass/**/*.{h,m}"
   s.resources = [
-    "GLCalendarView/Sources/**/*.{png}",
-    "GLCalendarView/Sources/**/*.{storyboard,xib}",
+    "SmartSearchBar/Resource/**/*.{png}"
   ]
   
   s.frameworks = 'Foundation', 'UIKit'
