@@ -2,6 +2,6 @@
 
 1.Autolayout + animation , simple ,easy to read code
 
-2.Support google search
+2.Support google map autocomplete search
 
 ![alt tag](https://github.com/zuo305/SmartSearchBar/blob/master/bscXjwVf6G.gif)
